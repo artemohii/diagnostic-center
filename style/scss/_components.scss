@@ -9,6 +9,7 @@
     // .nav__ul
 
     &__ul {
+        @extend %flex;
     }
 
     // .nav__li
