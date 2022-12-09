@@ -1,0 +1,18 @@
+@import 'reset';
+@import 'vars' ;
+@import 'base';
+@import 'components';
+@import 'header';
+/* #nav {
+    display: none;
+    &._active {
+        display: block;
+    }
+}
+
+#burger {
+    &._active {
+        background: green;
+    }
+} */
+
