@@ -1,7 +1,12 @@
 $font-main:'Work Sans', sans-serif;
+$color-dark: #262626;
+$color-black: #000000;
+$color-violet: #8842F0;
+$color-white: #fff;
+$transition: .3s all easy-in-out;
 
 %flex {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    gap: 2.4rem;
 }

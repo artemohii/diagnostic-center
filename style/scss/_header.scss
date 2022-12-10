@@ -1,4 +1,9 @@
 .header {
+    padding: 5rem 0;
+    &__item {
+        display: flex;
+        align-items: center
+    }
 }
 
 
