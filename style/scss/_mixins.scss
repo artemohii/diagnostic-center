@@ -4,6 +4,9 @@
     font-size: $fs;
     line-height: $lh;
     color: $color;
-
-
+}
+@mixin flex {
+    display: flex;
+    align-items: center;
+    gap: 2.4rem;
 }

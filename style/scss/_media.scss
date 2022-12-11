@@ -1,0 +1,55 @@
+@media only screen and (max-width: 1200px) {
+    .search__input {
+        display: none;
+    }
+    .staff__name {
+        font-size: 1.4rem;
+    }
+    .staff__job {
+        font-size: 1.2rem;
+    }
+    .footer {
+        .row {
+            gap: 0;
+            flex-wrap: wrap;
+        }
+    }
+}
+@media only screen and (max-width: 992px) {
+    .join__subscribe {
+        background: inherit;
+        flex-direction: column;
+        border-radius: 1rem;
+        align-items: center;
+        gap: 4rem;
+    }
+    .join__input {
+        text-align: center;
+        width: auto;
+        padding: 1rem 3rem;
+    }
+    .staff__btn {
+        padding: 1rem 1.5rem;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .nav {
+        display: none;
+    }
+    .join {
+        padding: 4rem 12rem;
+        .title {
+            font-size: 2.4rem;
+            margin-bottom: 0;
+        }
+    }
+    
+}
+@media only screen and (max-width: 576px) {
+    .join {
+        padding: 2rem 6rem;
+    }
+    .footer {
+        padding-bottom: 0;
+    }
+}

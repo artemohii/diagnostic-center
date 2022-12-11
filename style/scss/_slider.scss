@@ -1,0 +1,32 @@
+/* slider */
+.slider {
+    margin-bottom: 9rem;
+		// .slider__item
+
+		&__item {
+            border-radius: 3rem;
+            img {
+                border-radius: 3rem;
+            }
+		}
+}
+#html .owl-theme {
+    .owl-dots {
+        height: 2rem;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 2.5rem;
+        .owl-dot {
+            span {
+                background: $color-dark;
+            }
+            &.active {
+                span {
+                    background: $color-violet;
+                }
+            }
+        }
+    }
+}
+/* slider end*/

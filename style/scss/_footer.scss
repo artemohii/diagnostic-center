@@ -1,0 +1,66 @@
+.footer {
+    background: $color-pink;
+    padding: 10rem 0;
+    .row {
+        flex-wrap: nowrap;
+        gap: 80px;
+    }
+
+    // .footer__title
+
+    &__title {
+        margin-bottom: 2.5rem;
+        
+
+        
+    }
+
+    // .footer__desc
+
+    &__desc {
+        margin-bottom: 1rem;
+    }
+
+    // .footer__name
+
+    &__name {
+        @include text($font-main, 600, 2rem, 2.3rem, $color-dark);
+    }
+    &__ul {
+
+    }
+
+    // .footer__li
+
+    &__li {
+        margin-bottom: 1.5rem;
+
+
+
+    }
+}
+
+.contact {
+    
+
+    // .contact__name
+
+    &__name {
+        margin-bottom: 1rem;
+    }
+
+    // .contact__desc
+
+    &__desc {
+        margin-bottom: 3rem;
+    }
+}
+
+.open-hours {
+    &__name {
+        margin-bottom: 2rem;
+    }
+}
+
+
+
