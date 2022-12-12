@@ -5,9 +5,9 @@ $('.owl-carousel').owlCarousel({
     margin:10
 });
 
-/* function navToggle() {
+function navToggle() {
     var navToggleBtn = document.getElementById("burger");
-    var navToggleUl = document.getElementById("nav");
+    var navToggleUl = document.getElementById("burger_nav");
     navToggleBtn.classList.toggle("_active");
     navToggleUl.classList.toggle("_active");
-} */
+}

@@ -1,12 +1,18 @@
 @media only screen and (max-width: 1200px) {
-    .search__input {
+    .search {
         display: none;
+    }
+    .card-services__title {
+        height: 6rem;
     }
     .staff__name {
         font-size: 1.4rem;
     }
     .staff__job {
         font-size: 1.2rem;
+    }
+    .staff__btn {
+        padding: 1rem 1.5rem;
     }
     .footer {
         .row {
@@ -16,6 +22,24 @@
     }
 }
 @media only screen and (max-width: 992px) {
+    .header__item {
+        margin-bottom: 1rem;
+    }
+    .header {
+        padding: 1rem;
+    }
+    .nav {
+        display: none;
+    }
+    #burger {
+        display: block;
+    }
+    
+    .nav__a {
+        color: $color-dark;
+        padding: 1rem;
+        
+    }
     .join__subscribe {
         background: inherit;
         flex-direction: column;
@@ -28,13 +52,25 @@
         width: auto;
         padding: 1rem 3rem;
     }
-    .staff__btn {
-        padding: 1rem 1.5rem;
-    }
+    
 }
 @media only screen and (max-width: 768px) {
-    .nav {
-        display: none;
+
+    
+    
+    .logo {
+        font-size: 1.4rem;
+        line-height: 1.4rem;
+    }
+    .slider {
+        margin-bottom: 2rem;
+    }
+    .title {
+        margin-bottom: 1rem;
+        font-size: 2.4rem;
+    }
+    .services, .cards, .join {
+        margin-bottom: 3rem;
     }
     .join {
         padding: 4rem 12rem;

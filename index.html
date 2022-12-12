@@ -13,7 +13,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="./img/favicon/favicon.ico" type="image/x-icon">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Quiro</title>
 </head>
 <body>
     <div class="container">
@@ -23,6 +24,8 @@
                     <a href="#" class="logo">Quiro Diagnostic Center</a>
                 </div>
                 <div class="header__item col-5">
+                            
+
                     <nav class="nav">
                         <ul class="nav__ul">
                             <li class="nav__li"><a class="nav__a nav__a_active" href="#">Home</a></li>
@@ -35,11 +38,25 @@
                     </nav>
                 </div>
                 <div class="header__item col-3">
+                    <button class="burger" id="burger" onclick="navToggle()">
+                        <span class="material-icons menu">menu</span>
+                        <span class="material-icons close">close</span>
+                    </button>
                     <div class="search">
                         <input class="search__input" type="search" placeholder="Search Here">
                         <img class="search__icon" src="./img/icons/search.svg" alt="search icon">
                     </div>
                 </div>
+                <nav id="burger_nav" class="burger__nav">
+                    <ul >
+                        <li class="burger__nav__li nav__li"><a class="burger__nav__a nav__a" href="#">Home</a></li>
+                        <li class="burger__nav__li nav__li"><a class="burger__nav__a nav__a" href="#">Service</a></li>
+                        <li class="burger__nav__li nav__li"><a class="burger__nav__a nav__a" href="#">Doctors</a></li>
+                        <li class="burger__nav__li nav__li"><a class="burger__nav__a nav__a" href="#">Gallery</a></li>
+                        <li class="burger__nav__li nav__li"><a class="burger__nav__a nav__a" href="#">Home</a></li>
+                        <li class="burger__nav__li nav__li"><a class="burger__nav__a nav__a" href="#">Contact</a></li>
+                    </ul>
+                </nav>
             </div>
         </header>
         <div class="slider">
@@ -287,13 +304,7 @@
 
 
 
-<!--     <button id="burger" onclick="navToggle()">Burger</button>
-    <nav id="nav">
-        <a href="">links</a>
-        <a href="">links</a>
-        <a href="">links</a>
-        <a href="">links</a>
-    </nav> -->
+
 
 
 
